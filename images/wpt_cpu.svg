@@ -1,8 +1,73 @@
-<svg
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   width="900"
-   height="600"
-   viewBox="0 0 900 600"
-   version="1.1">
-   <defs id="defs"><clipPath id="_ABSTRACT_RENDERER_ID_1"><rect x="172" y="115" width="556" height="371"></rect></clipPath></defs><rect x="0" y="0" width="900" height="600" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="172" y="89.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Timings (ms)</text><rect x="172" y="78" width="556" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="742" y="115" width="144" height="37" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="742" y="115" width="144" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="775" y="126.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Staples</text></g><rect x="742" y="115" width="28" height="14" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="742" y="138" width="144" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="775" y="149.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Wolfermans</text></g><rect x="742" y="138" width="28" height="14" stroke="none" stroke-width="0" fill="#dc3912"></rect></g></g><g><rect x="172" y="115" width="556" height="371" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.webpagetest.org/video/compare.php?tests=170228_WQ_2NZ%2C170228_RN_2P0&amp;thumbSize=200&amp;ival=1000&amp;end=visual#_ABSTRACT_RENDERER_ID_1)"><g><rect x="172" y="485" width="556" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="172" y="393" width="556" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="172" y="300" width="556" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="172" y="208" width="556" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="172" y="115" width="556" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect></g><g><rect x="183" y="260" width="17" height="225" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="239" y="259" width="16" height="226" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="294" y="446" width="17" height="39" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="350" y="292" width="16" height="193" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="405" y="452" width="17" height="33" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="461" y="398" width="16" height="87" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="516" y="484.39493333333337" width="17" height="1.1050666666666302" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="572" y="477" width="16" height="8" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="627" y="464" width="17" height="21" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="683" y="142" width="16" height="343" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="201" y="370" width="16" height="115" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="256" y="370" width="17" height="115" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="312" y="430" width="16" height="55" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="367" y="362" width="17" height="123" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="423" y="455" width="16" height="30" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="478" y="422" width="17" height="63" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="534" y="477" width="16" height="8" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="589" y="468" width="17" height="17" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="645" y="461" width="16" height="24" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="700" y="304" width="17" height="181" stroke="none" stroke-width="0" fill="#dc3912"></rect></g><g><rect x="172" y="485" width="556" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="end" x="202.7" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 202.7 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Visually Complete</text></g><g><text text-anchor="end" x="258.2" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 258.2 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Last Visual Change</text></g><g><text text-anchor="end" x="313.7" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 313.7 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Load Time (onload)</text></g><g><text text-anchor="end" x="369.2" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 369.2 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Load Time (Fully Loaded)</text></g><g><text text-anchor="end" x="424.7" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 424.7 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">DOM Content Loaded</text></g><g><text text-anchor="end" x="480.2" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 480.2 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Speed Index</text></g><g><text text-anchor="end" x="535.7" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 535.7 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Time to First Byte</text></g><g><text text-anchor="end" x="591.2" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 591.2 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Time to Title</text></g><g><text text-anchor="end" x="646.7" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 646.7 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">Time to Start Render</text></g><g><text text-anchor="end" x="702.2" y="506.24352447854375" font-family="Arial" font-size="14" transform="rotate(-30 702.2 506.24352447854375)" stroke="none" stroke-width="0" fill="#222222">CPU Busy Time</text></g><g><text text-anchor="end" x="158" y="490.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="158" y="397.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">7,500</text></g><g><text text-anchor="end" x="158" y="305.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">15,000</text></g><g><text text-anchor="end" x="158" y="212.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">22,500</text></g><g><text text-anchor="end" x="158" y="120.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">30,000</text></g></g></g><g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+	<title>Comparison of Timings for Wolferman's and Staples Page load</title>
+	<style>
+		* {
+			font-family: arial;
+			font-size: small;
+			color: #222;
+		}
+	</style>
+  <path fill="#fff" d="M0 0h900v600H0z"/>
+  <text x="172" y="89.9" font-weight="bold">
+    Timings (ms)
+  </text>
+  <text x="775" y="126.9">
+    Staples
+  </text>
+  <path fill="#36c" d="M742 115h28v14h-28z"/>
+  <text x="775" y="149.9">
+    Wolfermans
+  </text>
+  <path fill="#dc3912" d="M742 138h28v14h-28z"/>
+  <g clip-path="url(https://www.webpagetest.org/video/compare.php?tests=170228_WQ_2NZ%2C170228_RN_2P0&amp;thumbSize=200&amp;ival=1000&amp;end=visual#_ABSTRACT_RENDERER_ID_1)">
+    <path fill="#ccc" d="M172 485h556v1H172zm0-92h556v1H172zm0-93h556v1H172zm0-92h556v1H172zm0-93h556v1H172z"/>
+    <path fill="#36c" d="M183 260h17v225h-17zm56-1h16v226h-16zm55 187h17v39h-17zm56-154h16v193h-16zm55 160h17v33h-17zm56-54h16v87h-16zm55 86.4h17v1h-17zm56-7.4h16v8h-16zm55-13h17v21h-17zm56-322h16v343h-16z"/>
+    <path fill="#dc3912" d="M201 370h16v115h-16zm55 0h17v115h-17zm56 60h16v55h-16zm55-68h17v123h-17zm56 93h16v30h-16zm55-33h17v63h-17zm56 55h16v8h-16zm55-9h17v17h-17zm56-7h16v24h-16zm55-157h17v181h-17z"/>
+    <path fill="#333" d="M172 485h556v1H172z"/>
+  </g>
+  <text x="202.7" y="506.2" text-anchor="end" transform="rotate(-30 202.7 506.244)">
+    Visually Complete
+  </text>
+  <text x="258.2" y="506.2" text-anchor="end" transform="rotate(-30 258.2 506.244)">
+    Last Visual Change
+  </text>
+  <text x="313.7" y="506.2" text-anchor="end" transform="rotate(-30 313.7 506.244)">
+    Load Time (onload)
+  </text>
+  <text x="369.2" y="506.2" text-anchor="end" transform="rotate(-30 369.2 506.244)">
+    Load Time (Fully Loaded)
+  </text>
+  <text x="424.7" y="506.2" text-anchor="end" transform="rotate(-30 424.7 506.244)">
+    DOM Content Loaded
+  </text>
+  <text x="480.2" y="506.2" text-anchor="end" transform="rotate(-30 480.2 506.244)">
+    Speed Index
+  </text>
+  <text x="535.7" y="506.2" text-anchor="end" transform="rotate(-30 535.7 506.244)">
+    Time to First Byte
+  </text>
+  <text x="591.2" y="506.2" text-anchor="end" transform="rotate(-30 591.2 506.244)">
+    Time to Title
+  </text>
+  <text x="646.7" y="506.2" text-anchor="end" transform="rotate(-30 646.7 506.244)">
+    Time to Start Render
+  </text>
+  <text x="702.2" y="506.2" text-anchor="end" transform="rotate(-30 702.2 506.244)">
+    CPU Busy Time
+  </text>
+  <text x="158" y="490.4" fill="#444" text-anchor="end">
+    0
+  </text>
+  <text x="158" y="397.9" fill="#444" text-anchor="end">
+    7,500
+  </text>
+  <text x="158" y="305.4" fill="#444" text-anchor="end">
+    15,000
+  </text>
+  <text x="158" y="212.9" fill="#444" text-anchor="end">
+    22,500
+  </text>
+  <text x="158" y="120.4" fill="#444" text-anchor="end">
+    30,000
+  </text>
+</svg>

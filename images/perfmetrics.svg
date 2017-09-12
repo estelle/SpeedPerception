@@ -29,7 +29,7 @@
 	 </style>
 <g class="boxes">
   <g>
-	<rect x="2" y="220" width="48"/>
+	<rect x="2" y="220" width="48" height="42"/>
 	<text transform="matrix(1 0 0 1 5 233)">
 		<tspan x="0" y="0">Prompt </tspan>
 		<tspan x="15" y="13">for</tspan>
@@ -38,17 +38,17 @@
   </g>
 
   <g>
-	<rect x="56" y="220" width="72"/>
+	<rect x="56" y="220" width="72" height="42"/>
 	<text transform="matrix(1 0 0 1 73 243)">redirect</text>
   </g>
 
   <g>
-	<rect x="61" y="250" width="46"/>
+	<rect x="61" y="250" width="46" height="42"/>
 	<text transform="matrix(1 0 0 1 63 274)">unload</text>
   </g>
 
   <g>
-	<rect x="134" y="220"   width="39"/>
+	<rect x="134" y="220"   width="39" height="42"/>
 	<text transform="matrix(1 0 0 1 135 236)">
 		<tspan x="5" y="0">App</tspan>
 		<tspan x="0" y="14">cache</tspan>
@@ -56,25 +56,25 @@
   </g>
 
   <g>
-	<rect x="179" y="220" style="fill:rgb(45,136,142)"   width="33"/>
+	<rect x="179" y="220" style="fill:rgb(45,136,142)"   width="33" height="42"/>
 	<text transform="matrix(1 0 0 1 183 243)" fill="#FFFFFF">DNS</text>
   </g>
 
   <g>
-	<rect x="217" y="220" style="fill:#E58225"   width="38"/>
-	<rect class="innerbox" x="237" y="220.5" style="fill:#C041CD" width="17" />
+	<rect x="217" y="220" style="fill:#E58225"   width="38" height="42"/>
+	<rect class="innerbox" x="237" y="220.5" style="fill:#C041CD" width="17"  height="41"/>
 	<text transform="matrix(1 0 0 1 224 243)" fill="#FFFFFF">TCP</text>
   </g>
 
   <g>
-	<rect x="260" y="220"   width="84"/>
+	<rect x="260" y="220"   width="84" height="42"/>
 	<text transform="matrix(1 0 0 1 280 243)">
 		<tspan x="0" y="0">Request</tspan>
 	</text>
   </g>
 
   <g>
-	<rect x="343" y="220"   width="84"/>
+	<rect x="343" y="220"   width="84" height="42"/>
 	<text transform="matrix(1 0 0 1 358 243)">
 		Response
 		
@@ -82,13 +82,13 @@
   </g>
 
   <g>
-	<rect x="433" y="220" width="136"/>
-	<rect class="innerbox" x="500.5" y="220.5" style="fill:#D888DF" width="68" />
+	<rect x="433" y="220" width="136" height="42"/>
+	<rect class="innerbox" x="500.5" y="220.5" style="fill:#D888DF" width="68"  height="41"/>
 	<text transform="matrix(1 0 0 1 475 243)">Processing</text>
   </g>
 
   <g>	
-	<rect x="572" y="220" style="fill:#C0C0FF" width="59"/>
+	<rect x="572" y="220" style="fill:#C0C0FF" width="59" height="42"/>
 	<text transform="matrix(1 0 0 1 582 243)">onLoad</text>
   </g>
 </g>
