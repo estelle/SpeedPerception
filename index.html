@@ -75,13 +75,14 @@ ol + a  .icon {
 </p>
 <p>
 Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="http://www.twitter.com/estellevw">@estellevw</a>,  <a href="http://www.twitter.com/standardista">@standardista</a><br/>Blog: <a href="http://www.standardista.com">www.standardista.com</a></p>
-<div class="floatright">
-  <img src="http://akamaicovers.oreilly.com/images/9780987467485/cat.gif" alt="HTML5 and CSS3 for the Real World">
-  <img src="http://akamaicovers.oreilly.com/images/0636920041658/cat.gif" alt="Animations and Transitions with CSS"/>
-  <img src="http://akamaicovers.oreilly.com/images/0636920021711/cat.gif" alt="MObile HTML5" />
-  <img src="http://akamaicovers.oreilly.com/images/0636920025955/cat.gif" alt="Web Performance Daybook"/>
-  <img src="http://akamaicovers.oreilly.com/images/0636920012726/rc_cat.gif" alt="CSS: The Definitive Guide">
-  <img src="https://images-na.ssl-images-amazon.com/images/I/51kEaOLPoPL._SX379_BO1,204,203,200_.jpg" alt="Flexible boxes in CSS" width="180"></div>
+<div class="list-of-images">
+<ul>
+<li>  <img src="http://akamaicovers.oreilly.com/images/9780987467485/cat.gif" alt="HTML5 and CSS3 for the Real World"></li>
+<li>  <img src="http://akamaicovers.oreilly.com/images/0636920041658/cat.gif" alt="Animations and Transitions with CSS"/></li>
+<li>  <img src="http://akamaicovers.oreilly.com/images/0636920021711/cat.gif" alt="MObile HTML5" /></li>
+<li>  <img src="http://akamaicovers.oreilly.com/images/0636920025955/cat.gif" alt="Web Performance Daybook"/></li>
+<li>  <img src="http://akamaicovers.oreilly.com/images/0636920012726/rc_cat.gif" alt="CSS: The Definitive Guide"></li>
+<li>  <img src="https://images-na.ssl-images-amazon.com/images/I/51kEaOLPoPL._SX379_BO1,204,203,200_.jpg" alt="Flexible boxes in CSS" width="180"></li></ul></div>
 </section>
 </div>
  
@@ -103,33 +104,6 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
 
 
 
-<!-- Talk Table of Contents-->
-<div class="slide divider">
-	<header>
-		<h1>Visual Metrics</h1>
-	</header>
-	<section>
-	<ol>
-	<li>SpeedIndex (SI)</li>
-	<li>Perceptual Speed Index (PSI)</li>
-	</ol>
-	</section>
-</div>
-<!-- Talk Table of Contents-->
-<div class="slide divider">
-	<header>
-		<h1>SpeedPerception </h1>
-	</header>
-	<section>
-	<ol>
-	<li>SpeedPerception Study Overview</li>
-	<li>Hypothesis</li>
-	<li>Results</li>
-	<li>Learnings</li>
-	<li>Phase 2</li>
-	</ol>
-	</section>
-</div>
 
 
 
@@ -158,7 +132,51 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
   <header>
     <h1>What is Fast?</h1>
   </header>
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 2300 1200" version="1.1" style="margin-top: -300px; width: 80%"> <title>What is fast?</title> <style> .findings rect { stroke: #333; stroke-width: 1px; width: 15px; fill: #226DAA; } .findings text { } .grid rect{ stroke: #ccc; stroke-width:2px; stroke-linecap:butt; stroke-linejoin:miter; stroke-opacity:1; fill: #fff; } text { font-size: 40px; font-family:sans-serif; } .values text { font-size: 20px; } .rotate { transform: rotate(-90deg); } </style> <g class="grid" transform="translate(62,-185)"> <rect width="2100" height="900" y="300" x="50" /> <rect width="2100" height="700" y="400" x="50" /> <rect width="2100" height="500" y="500" x="50" /> <rect width="2100" height="300" y="600" x="50" /> <rect width="2100" height="100" y="700" x="50" /> </g> <g class="findings" transform="translate(80,-185)">  <rect height="15" y="490" x="240" /> <text x="180" y="440" class="temphidden">Hello World</text> <rect height="15" y="490" x="1820" class="temphidden" /> <text x="1700" y="440" class="temphidden">Lord of the Rings</text> </g> <g class="values"> <text x="100" y="1060">0 s</text> <text x="200" y="1060">1 s</text> <text x="300" y="1060">2 s</text> <text x="400" y="1060">3 s</text> <text x="500" y="1060">4 s</text> <text x="600" y="1060">5 s</text> <text x="700" y="1060">6 s</text> <text x="800" y="1060">7 s</text> <text x="900" y="1060">8 s</text> <text x="1000" y="1060">9 s</text> <text x="1100" y="1060">10 s</text> <text x="1200" y="1060">11 s</text> <text x="1300" y="1060">12 s</text> <text x="1400" y="1060">13 s</text> <text x="1500" y="1060">14 s</text> <text x="1600" y="1060">15 s</text> <text x="1700" y="1060">16 s</text> <text x="1800" y="1060">17 s</text> <text x="1900" y="1060">18 s</text> <text x="2000" y="1060">19 s</text> <text x="2100" y="1060">20 s</text> </g> <g class="axes"> <text x="600" y="1100">Time to Load</text> <text x="-700" y="60" class="rotate">Number of Visitors</text> </g> </svg> 
+  <section>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 1200" version="1.1" style="width: 90vw"> <title>What is fast?</title> <style> .findings rect { stroke: #333; stroke-width: 1px; width: 15px; fill: #226DAA; } .findings text { } .grid rect{ stroke: #ccc; stroke-width:2px; stroke-linecap:butt; stroke-linejoin:miter; stroke-opacity:1; fill: #fff; } text { font-size: 40px; font-family:sans-serif; } .values text { font-size: 20px; } .rotate { transform: rotate(-90deg); } </style> 
+<g transform="translate(-20,-90)">
+  <g class="grid" transform="translate(62,-185)"> 
+    <rect width="2100" height="900" y="300" x="50" /> 
+    <rect width="2100" height="700" y="400" x="50" /> 
+    <rect width="2100" height="500" y="500" x="50" /> 
+    <rect width="2100" height="300" y="600" x="50" /> 
+    <rect width="2100" height="100" y="700" x="50" /> 
+  </g> 
+  <g class="findings" transform="translate(80,-185)">
+    <rect height="15" width="15"  y="490" x="240" /> 
+    <text x="180" y="440" class="temphidden">Hello World</text>
+    <rect height="15" width="15" y="490" x="1820" class="temphidden" /> 
+    <text x="1700" y="440" class="temphidden">Lord of the Rings</text> 
+  </g> 
+  <g class="values"> 
+    <text x="100" y="1060">0 s</text> 
+    <text x="200" y="1060">1 s</text> 
+    <text x="300" y="1060">2 s</text> 
+    <text x="400" y="1060">3 s</text> 
+    <text x="500" y="1060">4 s</text> 
+    <text x="600" y="1060">5 s</text> 
+    <text x="700" y="1060">6 s</text> 
+    <text x="800" y="1060">7 s</text> 
+    <text x="900" y="1060">8 s</text> 
+    <text x="1000" y="1060">9 s</text> 
+    <text x="1100" y="1060">10 s</text> 
+    <text x="1200" y="1060">11 s</text> 
+    <text x="1300" y="1060">12 s</text> 
+    <text x="1400" y="1060">13 s</text> 
+    <text x="1500" y="1060">14 s</text> 
+    <text x="1600" y="1060">15 s</text> 
+    <text x="1700" y="1060">16 s</text> 
+    <text x="1800" y="1060">17 s</text> 
+    <text x="1900" y="1060">18 s</text> 
+    <text x="2000" y="1060">19 s</text> 
+    <text x="2100" y="1060">20 s</text>
+  </g> 
+  <g class="axes"> 
+    <text x="600" y="1100">Time to Load</text> 
+    <text x="-700" y="60" class="rotate">Number of Visitors</text>
+  </g>
+</g> 
+</svg> 
   
 </section>
 </div>
@@ -270,7 +288,7 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
 </div>
 
 
-
+<!--
 <div class="slide">
   <header>
     <h1>What's involved in a page load?</h1>
@@ -295,14 +313,16 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
 </ul>
 </section>
 </div>
+-->
 
 <!-- What we can measure -->
 <div class="slide">
-  <header>
-    <h1>Navigation Timing API metrics</h1>
+  <header class="flex">
+    <h1>Objective Metrics:&nbsp;</h1>
+    <h2>Navigation Timing API</h2>
   </header>
   <section style="height: 80vh; overflow: scroll">
-  <img src="images/perfmetrics.svg" alt="Navigation Timing API metrics" style="width: 95vw">
+  <img src="images/perfmetrics.svg" alt="Navigation Timing API metrics" style="height: 80vh">
   </section>
 </div>
 
@@ -325,7 +345,7 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
     <h1>Load Time <span class="temphidden">v. Visually Complete</span></h1>
   </header>
   <section>
-  <p class="center">Load Times: 3,729ms v. 3,768ms 
+  <p class="center">Load Times: 3,729ms v. 3,768ms <button onclick="playVideos('video1', 'video2')">Play</button>
  </p><p class="center temphidden">Visually Complete: 16s v.
 8.7s </p>
   <div style="display: flex; justify-content: space-between;">
@@ -338,7 +358,6 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
       Wolferman's
     </section>
   </div>
-  <p class="center"><button onclick="playVideos('video1', 'video2')">Play</button>
   </section>
 
 </div>
@@ -358,9 +377,31 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
 </div>
 
 
-<div class="slide object">
+<div class="slide wpt_fake">
 <header><h1>Active v. Passive Waiting</h1></header>
-<object data="files/lastsecond.html" style="padding-top: 80px;"></object> 
+<section class="list-of-images">
+<ol>
+<li>3.0s</li><li>4.0s</li><li>5.0s</li><li>6.0s</li><li>7.0s</li><li>8.0s</li></ul>
+</ol>
+
+<ul>
+<li><img alt=""  src="files/mlw/thumbnail.jpeg"><br>0%</li>
+<li><img alt=""  src="files/mlw/thumbnail1.jpeg"><br>56%</li>
+<li><img alt=""  src="files/mlw/thumbnail2.jpeg"><br>56%</li>
+<li><img alt=""  src="files/mlw/thumbnail3.jpeg"><br>67%</li>
+<li><img alt=""  src="files/mlw/thumbnail4.jpeg"><br>67%</li>
+<li><img alt=""  src="files/mlw/thumbnail5.jpeg"><br>100%</li></ul>
+
+<ul>
+
+
+<li><img alt=""  src="files/mlw/thumbnail.jpeg"><br>0%</li>
+<li><img alt=""  src="files/mlw/thumbnail.jpeg"><br>56%</li>
+<li><img alt=""  src="files/mlw/thumbnail.jpeg"><br>66%</li>
+<li><img alt=""  src="files/mlw/thumbnail.jpeg"><br>66%</li>
+<li><img alt=""  src="files/mlw/thumbnail5.jpeg"><br>100%</li>
+<li></li></ul>
+</section>
 </div>
 
 
@@ -393,7 +434,18 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
   </section>
 </div>
 
-
+<!-- Talk Table of Contents-->
+<div class="slide divider">
+  <header>
+    <h1>Visual Metrics</h1>
+  </header>
+  <section>
+  <ol>
+  <li>SpeedIndex (SI)</li>
+  <li>Perceptual Speed Index (PSI)</li>
+  </ol>
+  </section>
+</div>
 
 <div class="slide">
   <header>
@@ -437,12 +489,34 @@ Twitter: <a href="http://www.twitter.com/webdevtips">@webdevtips</a>,  <a href="
     <li>Frame-by-frame VC progress is computed from pixel-histogram comparisons
     <p class="center"><img src="images/si.png" alt="equation for speed index" style="width: 30vw"></p>
     </li>
+    </ul>
+  </section>
+</div>
+ 
+<!-- What is FAST -->
+<div class="slide">
+  <header>
+    <h1>Huh? Speed Index Explained</h1>
+  </header>
+  <section>
+<img src="images/speedindex.svg" alt="a demonstration to help explain how speed index is calculated" style="margin-top: -200px; width: 90vw">
+</section>
+</div>
+
+<!-- SI explained -->
+<div class="slide">
+  <header>
+    <h1>Measurement of visual progress in Speed Index</h1>
+  </header>
+  <section>
+  <ul>
+    <li>Frame-by-frame VC progress is computed from pixel-histogram comparisons
+    <p class="center"><img src="images/si.png" alt="equation for speed index" style="width: 30vw"></p>
+    </li>
     <li>Pixel-wise similarity (mean histogram difference a.k.a. <acronym title="mean histogram difference">MHD</acronym>) doesn’t capture visual perception!
 <ul><li>Perception of Shape / Color / Object similarity</li></ul></li></ul>
   </section>
 </div>
- 
-
 <!-- shape similarity -->
 <div class="slide">
   <header>
@@ -643,6 +717,23 @@ For more details and explanations:
 
 
 
+<!-- Talk Table of Contents-->
+<div class="slide divider">
+  <header>
+    <h1>SpeedPerception </h1>
+  </header>
+  <section>
+  <ol>
+  <li>SpeedPerception Study Overview</li>
+  <li>Hypothesis</li>
+  <li>Results</li>
+  <li>Learnings</li>
+  <li>Phase 2</li>
+  </ol>
+  </section>
+</div>
+
+
 <div class="slide divider">
   <header>
     <h1>SpeedPerception</h1>
@@ -702,6 +793,27 @@ For more details and explanations:
 </div>
 
 
+<div class="slide divider">
+  <header>
+    <h1>Hypothesis 3</h1>
+  </header>
+  <section>
+  </section>
+</div>
+
+
+<div class="slide">
+  <section>
+    <p><strong>Hypothesis 3:</strong> User will not wait until “Visual Complete” to make their choice (despite the explicit instruction to wait until video turns grey)</p>
+    <img class="temphidden" src="images/hyp3.png" style="max-height: 60vh">
+  </section>
+</div>
+
+
+
+
+
+
 
 
 <div class="slide divider">
@@ -743,7 +855,8 @@ For more details and explanations:
   <header>
     
   </header>
-  <section>
+  <section class="flex" style="flex-direction: column; align-items: center";><img class="temphidden" src="images/hyp3.png" style="max-height: 50vh" alt="graph showing most people have enough information to choose which page loads faster somewhere between PSI, load time and visually complete" style="float: left">
+  <img class="temphidden" src="images/si.png" alt="equation for Speed Index" style="max-width: 50vw; margin: 1vh"> 
   </section>
 </div>
 
@@ -807,37 +920,40 @@ For more details and explanations:
 
 <ul>
 <li>There appears to be no one unicorn metric but, is there a combination synthetic metric (joint ML model) that will do a better job?</li>
-
-
-<li class="temphidden">People only looked two videos and made the call. Is there some additional information that we can extract from videos that will improve our models?</li>
+</ul>
 </section>
-</div>
-
-
-<div class="slide divider">
-  <header>
-    <h1>Hypothesis 3</h1>
-  </header>
-  <section>
-  </section>
 </div>
 
 
 <div class="slide">
   <section>
-    <p><strong>Hypothesis 3:</strong> User will not wait until “Visual Complete” to make their choice (despite the explicit instruction to wait until video turns grey)</p>
-    <img class="temphidden" src="images/hyp3.png" style="max-height: 60vh">
+  <p>
+<img src="images/h2_ttc.svg" style="height: 85vh; margin-top: -80px">
   </section>
 </div>
 
+<div class="slide">
+  <section>
+  <p>
+<img src="images/h2_ttc_combo.svg" style="height: 85vh; margin-top: -80px">
+  </section>
+</div>
+
+<div class="slide">
+  <header>
+    <h1>Conclusions &amp; Thoughts</h1>
+  </header>
+  <section>
+  
+
+<ul>
+<li>There appears to be no one unicorn metric but, is there a combination synthetic metric (joint ML model) that will do a better job?</li>
 
 
-
-
-
-
-
-
+<li>People only looked two videos and made the call. Is there some additional information that we can extract from videos that will improve our models?</li>
+</ul>
+</section>
+</div>
 <!-- WPT of Staples and Wolferman's #2-->
 <div class="slide object">
 <object data="https://www.webpagetest.org/video/compare.php?tests=170228_WQ_2NZ%2C170228_RN_2P0&thumbSize=200&ival=1000&end=visual"></object>
