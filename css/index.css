@@ -11,39 +11,22 @@ body {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  background: no-repeat url(../../overkill/img/instartlogo.svg) #ffffff;
-  background-position: right 1vw bottom 1vh;
-  background-size: auto 7.5vh; }
+  left: 0;
+  top: 0; }
 
 #info {
   font-size: small;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 40%;
   z-index: 500; }
 
-/* optional 
-#topinfo {
-  font-size: small;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  z-index: 500;
-}
-.key {
-  font-weight: bold;
-  padding: 3px;
-  background-color: $darken;
-  }
-*/
 #presentation {
   position: absolute;
   height: 100%;
   width: 100%;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   display: block;
   overflow: hidden; }
 
@@ -225,8 +208,13 @@ small {
     top: 40%;
     right: 20%; }
 
-img {
+img:only-of-type {
+  width: 90%;
   max-width: 90vw; }
+
+video {
+  width: calc(45vw - 100px);
+  min-width: 260px; }
 
 .intro_psi {
   position: relative; }
@@ -451,6 +439,25 @@ button {
   color: white;
   padding: 1vh 3vw; }
 
+.wpt_fake {
+  background-color: black;
+  color: white;
+  font-family: arial, sans-serif; }
+
+.list-of-images ul, .list-of-images ol {
+  display: flex;
+  list-style-type: none;
+  align-content: flex-start;
+  margin: 0; }
+.list-of-images li {
+  min-width: 13vw;
+  flex: 0 0 150px;
+  text-align: center;
+  font-size: 0.5rem;
+  line-height: 1; }
+.list-of-images ol li {
+  font-size: 1rem; }
+
 @media print {
   .slide {
     page-break-inside: avoid;
@@ -493,7 +500,21 @@ button {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    position: relative; }
+    .rail ol li::after {
+      position: absolute;
+      bottom: 2px;
+      left: 2px;
+      font-size: 0.5rem; }
+  .rail ol .r::after {
+    content: "100ms"; }
+  .rail ol .a::after {
+    content: "16ms"; }
+  .rail ol .i::after {
+    content: "50ms"; }
+  .rail ol .l::after {
+    content: "1s"; }
 .rail .r {
   background-color: #fee49d; }
 .rail .a {
