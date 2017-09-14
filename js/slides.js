@@ -381,7 +381,7 @@ SlideShow.prototype = {
 
 var removeCSS = document.getElementById('killCSS'),
 	ATUserPreference = false;
-console.dir(removeCSS);
+//console.dir(removeCSS);
 if(removeCSS) {
 	removeCSS.addEventListener('click', function () {
 		killCSS();
